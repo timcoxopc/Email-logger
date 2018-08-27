@@ -1,0 +1,5 @@
+name: Email logger
+type: module
+description: "Logs the contents of any emails sent."
+package: Custom
+core: 8.x

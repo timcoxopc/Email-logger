@@ -1,0 +1,5 @@
+<?php
+function email_logger_mail_alter(&$message) {
+	\Drupal::logger('email_logger')->notice($message['body'][0]);
+}
+?>
